@@ -14,7 +14,7 @@ Use pip install to get flask
 3. In the directory gomyearth/lib/api_client/api_client change line 13, 26, 45 - so that the local ip - 192... matches your network local ip. This will be your ipv4 address, you can use the ```ifconfig``` or ```ipconfig``` command to figure this out.This may change periodically, so if the server isn't communicating with the app, make sure to look at that. 
 
 Running the Flask app - 
-1. Navigate to the greenway/greenscraper directory. 
+1. Navigate to the gomyearth/greenscraper directory. 
 2. Run the following commands - 
 
 Mac - ```export FLASK_APP=main.py```
